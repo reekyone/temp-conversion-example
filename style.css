@@ -1,0 +1,41 @@
+body {
+    background-image: linear-gradient(to right, rgb(116, 116, 245), rgb(248, 95, 95));
+    font-family:'Times New Roman', Times, serif;
+}
+
+#content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box {
+    border: 4px solid rgb(138, 138, 138);
+    border-radius: 50px;
+    background-color: rgb(212, 212, 212);
+    margin: 10em 5em;
+    padding: 5em;
+    text-align: center;
+}
+
+.box h1 {
+    border-bottom: 4px solid black;
+    font-size: 2.25em;
+}
+
+.box input, .box button {
+    font-size: 1.5em;
+}
+
+.box button {
+    border-radius: 10px;
+}
+
+.box button:hover {
+    cursor: pointer;
+}
+
+#f-result, #c-result {
+    padding: 2em;
+    font-size: 2.5em;
+}
